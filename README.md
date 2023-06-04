@@ -31,3 +31,18 @@ Stack and additional information:
 	-	All the latest entries made globally within the last 2 minutes becomes our base. Out of this, articles that are no older than 5 days will be selected.
 	-	This base is then processed by taking in the context of current user i.e., article category and geolocation they are of.
 	-	A minimum threshold shall also be set for both the viewership and number of articles. For instance, if a person is accessing a Lacrosse article in Timbuktu just out of curiosity, then the chances of people in their vicinity that are also reading same/similar Lacrosse article may even be 0. In that scenario, fallback method shall be implemented by ignoring one or maybe even both the parameters.
+
+## Sample screenshots
+Desktop preview
+
+![Desktop preview](https://github.com/mgkbadola/trending-component/blob/main/imgs/es-desktop.png?raw=true)
+
+Mobile preview (portrait)
+
+![Desktop preview](https://github.com/mgkbadola/trending-component/blob/main/imgs/es-mobile-portrait.png?raw=true)
+
+
+Mobile preview (landscape)
+
+![Desktop preview](https://github.com/mgkbadola/trending-component/blob/main/imgs/es-mobile-landscape.png?raw=true)
+
