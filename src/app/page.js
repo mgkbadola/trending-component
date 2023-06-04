@@ -135,6 +135,7 @@ export default function Page() {
     if (formSubmitted) {
       const fetchArticles = async () => {
         try {
+          await axios.get(`${process.env.NEXT_PUBLIC_INTERNAL_API}/modify-behaviour?visit_id=${visitId}&article_id=${articleId}`);
           const response = await axios.get(
             `${process.env.NEXT_PUBLIC_INTERNAL_API}/fetch-trending?visit_id=${visitId}&article_id=${articleId}`
           );
